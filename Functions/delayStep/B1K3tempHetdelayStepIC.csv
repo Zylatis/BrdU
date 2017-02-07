@@ -1,0 +1,8 @@
+N0*(1 - phi)
+((a + 3*b + kappa)^2*N0*phi)/(a^2 + 9*a*b + 27*b^2 + 2*a*kappa + 9*b*kappa + kappa^2)
+(3*b*(a + 3*b + kappa)*N0*phi)/(a^2 + 9*a*b + 27*b^2 + 2*a*kappa + 9*b*kappa + kappa^2)
+(9*b^2*N0*phi)/(a^2 + 9*a*b + 27*b^2 + 2*a*kappa + 9*b*kappa + kappa^2)
+0
+0
+0
+0

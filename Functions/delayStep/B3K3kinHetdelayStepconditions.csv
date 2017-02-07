@@ -1,0 +1,2 @@
+N0*(a + del)*(-1 + phi) + (27*b**3*N0*phi)/(a**2 + 9*a*b + 27*b**2 + 2*a*del + 9*b*del + del**2)
+(N0*(-(a**3*(-2 + phi)) - 27*b**3*phi + a**2*(4*del + sig - 9*b*(-2 + phi) - 3*del*phi) + 27*b**2*(sig - del*phi) + 9*b*del*(sig - del*phi) + del**2*(sig - del*phi) + a*(-27*b**2*(-2 + phi) + del*(2*del + 2*sig - 3*del*phi) + 9*b*(2*del + sig - 2*del*phi))))/(a**2 + 9*a*b + 27*b**2 + 2*a*del + 9*b*del + del**2)

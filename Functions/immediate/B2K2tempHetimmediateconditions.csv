@@ -1,0 +1,2 @@
+N0*(a + del)*(-1 + phi) + (4*b**2*N0*phi)/(a + 4*b + kappa)
+(N0*(-(a**2*(-2 + phi)) - 4*b**2*phi + a*(2*kappa + sig - 4*b*(-2 + phi) - 2*kappa*phi) + 4*b*(sig - kappa*phi) + kappa*(sig - kappa*phi)))/(a + 4*b + kappa)

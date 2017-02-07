@@ -1,0 +1,12 @@
+dxdt[0]=-((a + del)*x[0]) + 3*b*x[3];
+dxdt[1]=-((3*b + kappa)*x[1]) + a*(2*x[0] + x[1] + 2*(x[2] + x[3] + x[7] + x[8] + x[9] + x[11]) - 2*eps*(x[0] + x[1] + x[2] + x[3] + x[7] + x[8] + x[9] + x[11]));
+dxdt[2]=3*b*(x[1] - x[2]) - (a + kappa)*x[2];
+dxdt[3]=3*b*(x[2] - x[3]) - (a + kappa)*x[3];
+dxdt[4]=N0*sig - a*x[4] - (3*b + kappa)*x[4] + 2*a*eps*(x[0] + x[1] + x[2] + x[3] + x[4] + x[5] + x[6] + x[7] + x[8] + x[9] + x[10] + x[11]);
+dxdt[5]=3*b*(x[4] - x[5]) - (a + kappa)*x[5];
+dxdt[6]=3*b*(x[5] - x[6]) - (a + kappa)*x[6];
+dxdt[7]=-((a + 3*b + kappa)*x[7]) - 2*a*(-1 + eps)*(x[4] + x[5] + x[6] + x[10]);
+dxdt[8]=3*b*(x[7] - x[8]) - (a + kappa)*x[8];
+dxdt[9]=3*b*(x[8] - x[9]) - (a + kappa)*x[9];
+dxdt[10]=3*b*x[6] - (a + del)*x[10];
+dxdt[11]=3*b*x[9] - (a + del)*x[11];

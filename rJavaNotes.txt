@@ -1,0 +1,32 @@
+Installing the R package xlsx requires rJava which, at least on linux,
+can be difficult.
+
+When attempting to install using 'install.packages('rJava')' it might prompt
+the user to run 'sudo R CMD javareconf'. If during this the error 'jni.h not found'
+occurs, rectify with the following procedure:
+
+1.) Download openjdk7 using sudo apt-get install openjdk-7-*
+
+2.) Locate the correct directory using 'locate jni.h'. If jni.h still not found,
+locate and install an alternative Java library
+
+3.) Ensure that the path to this library is made the java path by first running
+
+sudo gedit /etc/environment
+
+and the adding the line
+
+JAVA_HOME="/usr/lib/<path>
+
+where <path> is the location of the Java library include folder
+
+i.e. if locate jni.h returns
+
+/usr/lib/jvm/java-7-openjdk-amd64/include/jni.h
+
+then the line to add to the environment file is
+
+JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/"
+
+4.) Re-run sudo R CMD javareconf and if no errors are thrown, continue with
+installation of rJava through the R runtime environment.

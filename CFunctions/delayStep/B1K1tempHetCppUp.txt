@@ -1,0 +1,4 @@
+dxdt[0]=-((a + del)*x[0]) + b*x[1];
+dxdt[1]=-((b + kappa)*x[1]) + a*(2*x[0] + x[1] + 2*(x[2] + x[3]) - 2*eps*(x[0] + x[1] + x[2] + x[3]));
+dxdt[2]=N0*sig - a*x[2] - (b + kappa)*x[2] + 2*a*eps*(x[0] + x[1] + x[2] + x[3]);
+dxdt[3]=b*x[2] - (a + del)*x[3];

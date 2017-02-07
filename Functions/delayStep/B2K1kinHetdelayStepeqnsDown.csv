@@ -1,0 +1,6 @@
+b*BmKp1 - BmKm*(a + del)
+2*a*BmKm + a*BmKp1 + 2*a*(BpKm2 + BpKp21) - BmKp1*(b + del) + N0*sig*HeavisideTheta(-nu + t)
+BpKp11*(-a - b - del) + N0*sig*(1 - HeavisideTheta(-nu + t))
+2*a*(BpKm1 + BpKp11) + BpKp21*(-a - b - del)
+b*BpKp11 - BpKm1*(a + del)
+b*BpKp21 - BpKm2*(a + del)

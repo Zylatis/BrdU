@@ -1,0 +1,48 @@
+15*b*BmKp15 - BmKm*(a + del)
+-(a*BmKp1*(-1 + eps)) - 2*a*(BmKm + BmKp10 + BmKp11 + BmKp12 + BmKp13 + BmKp14 + BmKp15 + BmKp2 + BmKp3 + BmKp4 + BmKp5 + BmKp6 + BmKp7 + BmKp8 + BmKp9)*(-1 + eps) - 2*a*(BpKm2 + BpKp21 + BpKp210 + BpKp211 + BpKp212 + BpKp213 + BpKp214 + BpKp215 + BpKp22 + BpKp23 + BpKp24 + BpKp25 + BpKp26 + BpKp27 + BpKp28 + BpKp29)*(-1 + eps) - 15.*BmKp1*(b + 0.006666666666666667*del + 0.06666666666666667*a*eps)
+15.*b*BmKp1 - 1.*a*BmKp2 - 15.*b*BmKp2 - 0.1*BmKp2*del
+15.*b*BmKp2 - 1.*a*BmKp3 - 15.*b*BmKp3 - 0.1*BmKp3*del
+15.*b*BmKp3 - 1.*a*BmKp4 - 15.*b*BmKp4 - 0.1*BmKp4*del
+15.*b*BmKp4 - 1.*a*BmKp5 - 15.*b*BmKp5 - 0.1*BmKp5*del
+15.*b*BmKp5 - 1.*a*BmKp6 - 15.*b*BmKp6 - 0.1*BmKp6*del
+15.*b*BmKp6 - 1.*a*BmKp7 - 15.*b*BmKp7 - 0.1*BmKp7*del
+15.*b*BmKp7 - 1.*a*BmKp8 - 15.*b*BmKp8 - 0.1*BmKp8*del
+15.*b*BmKp8 - 1.*a*BmKp9 - 15.*b*BmKp9 - 0.1*BmKp9*del
+-1.*a*BmKp10 - 15.*b*BmKp10 + 15.*b*BmKp9 - 0.1*BmKp10*del
+15.*b*BmKp10 - 1.*a*BmKp11 - 15.*b*BmKp11 - 0.1*BmKp11*del
+15.*b*BmKp11 - 1.*a*BmKp12 - 15.*b*BmKp12 - 0.1*BmKp12*del
+15.*b*BmKp12 - 1.*a*BmKp13 - 15.*b*BmKp13 - 0.1*BmKp13*del
+15.*b*BmKp13 - 1.*a*BmKp14 - 15.*b*BmKp14 - 0.1*BmKp14*del
+15.*b*BmKp14 - 1.*a*BmKp15 - 15.*b*BmKp15 - 0.1*BmKp15*del
+BpKp11*(-1.*a - 15.*b - 0.1*del) + 2.*a*(BmKm + BmKp1 + BmKp10 + BmKp11 + BmKp12 + BmKp13 + BmKp14 + BmKp15 + BmKp2 + BmKp3 + BmKp4 + BmKp5 + BmKp6 + BmKp7 + BmKp8 + BmKp9 + BpKm1 + BpKm2 + 1.*BpKp11 + BpKp110 + BpKp111 + BpKp112 + BpKp113 + BpKp114 + BpKp115 + BpKp12 + BpKp13 + BpKp14 + BpKp15 + BpKp16 + BpKp17 + BpKp18 + BpKp19 + BpKp21 + BpKp210 + BpKp211 + BpKp212 + BpKp213 + BpKp214 + BpKp215 + BpKp22 + BpKp23 + BpKp24 + BpKp25 + BpKp26 + BpKp27 + BpKp28 + BpKp29)*eps + N0*sig
+15.*b*BpKp11 - 1.*a*BpKp12 - 15.*b*BpKp12 - 0.1*BpKp12*del
+15.*b*BpKp12 - 1.*a*BpKp13 - 15.*b*BpKp13 - 0.1*BpKp13*del
+15.*b*BpKp13 - 1.*a*BpKp14 - 15.*b*BpKp14 - 0.1*BpKp14*del
+15.*b*BpKp14 - 1.*a*BpKp15 - 15.*b*BpKp15 - 0.1*BpKp15*del
+15.*b*BpKp15 - 1.*a*BpKp16 - 15.*b*BpKp16 - 0.1*BpKp16*del
+15.*b*BpKp16 - 1.*a*BpKp17 - 15.*b*BpKp17 - 0.1*BpKp17*del
+15.*b*BpKp17 - 1.*a*BpKp18 - 15.*b*BpKp18 - 0.1*BpKp18*del
+15.*b*BpKp18 - 1.*a*BpKp19 - 15.*b*BpKp19 - 0.1*BpKp19*del
+-1.*a*BpKp110 - 15.*b*BpKp110 + 15.*b*BpKp19 - 0.1*BpKp110*del
+15.*b*BpKp110 - 1.*a*BpKp111 - 15.*b*BpKp111 - 0.1*BpKp111*del
+15.*b*BpKp111 - 1.*a*BpKp112 - 15.*b*BpKp112 - 0.1*BpKp112*del
+15.*b*BpKp112 - 1.*a*BpKp113 - 15.*b*BpKp113 - 0.1*BpKp113*del
+15.*b*BpKp113 - 1.*a*BpKp114 - 15.*b*BpKp114 - 0.1*BpKp114*del
+15.*b*BpKp114 - 1.*a*BpKp115 - 15.*b*BpKp115 - 0.1*BpKp115*del
+-1.*BpKp21*(a + 15.*b + 0.1*del) - 2*a*(BpKm1 + BpKp11 + BpKp110 + BpKp111 + BpKp112 + BpKp113 + BpKp114 + BpKp115 + BpKp12 + BpKp13 + BpKp14 + BpKp15 + BpKp16 + BpKp17 + BpKp18 + BpKp19)*(-1 + eps)
+15.*b*BpKp21 - 1.*a*BpKp22 - 15.*b*BpKp22 - 0.1*BpKp22*del
+15.*b*BpKp22 - 1.*a*BpKp23 - 15.*b*BpKp23 - 0.1*BpKp23*del
+15.*b*BpKp23 - 1.*a*BpKp24 - 15.*b*BpKp24 - 0.1*BpKp24*del
+15.*b*BpKp24 - 1.*a*BpKp25 - 15.*b*BpKp25 - 0.1*BpKp25*del
+15.*b*BpKp25 - 1.*a*BpKp26 - 15.*b*BpKp26 - 0.1*BpKp26*del
+15.*b*BpKp26 - 1.*a*BpKp27 - 15.*b*BpKp27 - 0.1*BpKp27*del
+15.*b*BpKp27 - 1.*a*BpKp28 - 15.*b*BpKp28 - 0.1*BpKp28*del
+15.*b*BpKp28 - 1.*a*BpKp29 - 15.*b*BpKp29 - 0.1*BpKp29*del
+-1.*a*BpKp210 - 15.*b*BpKp210 + 15.*b*BpKp29 - 0.1*BpKp210*del
+15.*b*BpKp210 - 1.*a*BpKp211 - 15.*b*BpKp211 - 0.1*BpKp211*del
+15.*b*BpKp211 - 1.*a*BpKp212 - 15.*b*BpKp212 - 0.1*BpKp212*del
+15.*b*BpKp212 - 1.*a*BpKp213 - 15.*b*BpKp213 - 0.1*BpKp213*del
+15.*b*BpKp213 - 1.*a*BpKp214 - 15.*b*BpKp214 - 0.1*BpKp214*del
+15.*b*BpKp214 - 1.*a*BpKp215 - 15.*b*BpKp215 - 0.1*BpKp215*del
+15*b*BpKp115 - BpKm1*(a + del)
+15*b*BpKp215 - BpKm2*(a + del)

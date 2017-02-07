@@ -1,0 +1,6 @@
+2*b*BmKp2 - BmKm*(a + del)
+a*(2*BmKm + BmKp1 + 2*(BmKp2 + BpKm1 + BpKp11 + BpKp12) - 2*(BmKm + BmKp1 + BmKp2 + BpKm1 + BpKp11 + BpKp12)*eps) - BmKp1*(2*b + kappa)
+2*b*(BmKp1 - BmKp2) - BmKp2*(a + kappa)
+-(a*BpKp11) + 2*a*(BmKm + BmKp1 + BmKp2 + BpKm1 + BpKp11 + BpKp12)*eps - BpKp11*(2*b + kappa) + N0*sig
+2*b*(BpKp11 - BpKp12) - BpKp12*(a + kappa)
+2*b*BpKp12 - BpKm1*(a + del)

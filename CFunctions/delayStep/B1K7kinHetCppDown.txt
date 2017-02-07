@@ -1,0 +1,16 @@
+dxdt[0]=-((a + del)*x[0]) + 7*b*x[7];
+dxdt[1]=HeavisideTheta(-nu + t)*N0*sig + a*x[1] - (7*b + del)*x[1] + 2*a*(x[0] + x[2] + x[3] + x[4] + x[5] + x[6] + x[7]) + 2*a*(x[8] + x[9] + x[10] + x[11] + x[12] + x[13] + x[14] + x[15]);
+dxdt[2]=7*b*x[1] + (-a - 7*b - del)*x[2];
+dxdt[3]=7*b*x[2] + (-a - 7*b - del)*x[3];
+dxdt[4]=7*b*x[3] + (-a - 7*b - del)*x[4];
+dxdt[5]=7*b*x[4] + (-a - 7*b - del)*x[5];
+dxdt[6]=7*b*x[5] + (-a - 7*b - del)*x[6];
+dxdt[7]=7*b*x[6] + (-a - 7*b - del)*x[7];
+dxdt[8]=(1 - HeavisideTheta(-nu + t))*N0*sig + (-a - 7*b - del)*x[8];
+dxdt[9]=7*b*x[8] + (-a - 7*b - del)*x[9];
+dxdt[10]=7*b*x[9] + (-a - 7*b - del)*x[10];
+dxdt[11]=7*b*x[10] + (-a - 7*b - del)*x[11];
+dxdt[12]=7*b*x[11] + (-a - 7*b - del)*x[12];
+dxdt[13]=7*b*x[12] + (-a - 7*b - del)*x[13];
+dxdt[14]=7*b*x[13] + (-a - 7*b - del)*x[14];
+dxdt[15]=7*b*x[14] - (a + del)*x[15];

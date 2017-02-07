@@ -1,0 +1,6 @@
+dxdt[0]=-((a + del)*x[0]) + b*x[1];
+dxdt[1]=HeavisideTheta(-nu + t)*N0*sig + 2*a*x[0] + a*x[1] - (b + kappa)*x[1] + 2*a*(x[3] + x[5]);
+dxdt[2]=(1 - HeavisideTheta(-nu + t))*N0*sig + (-a - b - kappa)*x[2];
+dxdt[3]=(-a - b - kappa)*x[3] + 2*a*(x[2] + x[4]);
+dxdt[4]=b*x[2] - (a + del)*x[4];
+dxdt[5]=b*x[3] - (a + del)*x[5];

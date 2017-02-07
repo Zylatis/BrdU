@@ -1,0 +1,16 @@
+N0*(1 - phi)
+((a + 3*b + del)^2*N0*phi)/(a^2 + 9*a*b + 27*b^2 + 2*a*del + 9*b*del + del^2)
+(3*b*(a + 3*b + del)*N0*phi)/(a^2 + 9*a*b + 27*b^2 + 2*a*del + 9*b*del + del^2)
+(9*b^2*N0*phi)/(a^2 + 9*a*b + 27*b^2 + 2*a*del + 9*b*del + del^2)
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0

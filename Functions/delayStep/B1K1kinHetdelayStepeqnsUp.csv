@@ -1,0 +1,4 @@
+b*BmKp1 - BmKm*(a + del)
+-(BmKp1*(b + del)) + a*(2*BmKm + BmKp1 + 2*(BpKm1 + BpKp11) - 2*(BmKm + BmKp1 + BpKm1 + BpKp11)*eps)
+-(BpKp11*(a + b + del)) + 2*a*(BmKm + BmKp1 + BpKm1 + BpKp11)*eps + N0*sig
+b*BpKp11 - BpKm1*(a + del)
