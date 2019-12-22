@@ -1,17 +1,12 @@
-# BrdU
-
-
 Package for curve fitting and analysis of 
 BrdU + Ki67 experimental data
 
 G. H. Gossel 2016
 graeme.gossel@gmail.com
 
-============================================
-PACKAGE CONTENTS
-============================================
+## Repo contents
 
-# .R files used as imports
+### R files used as imports
 
 - analysisHeaders.R
 - formatOutput.R
@@ -24,31 +19,29 @@ PACKAGE CONTENTS
 - getSettings.R
 - singleSetCI.R
 
-# .R files run directly by user
+### R files run directly by user
 - runBestFits.R
 - runAnalysis.R
 - runCombineBootData.R
 - runBootstrap.R
 - runExamine.R
 
-# Mathematica files used to prepare analytic expressions
+### Mathematica files used to prepare analytic expressions
 
 - makeCfns.nb
 - MakeRFunctions.nb
 
-# Raw data files
+### Raw data files
 - 29AprilRegate.xlsx
 
-# Formatted data files
+### Formatted data files
+
 4Tem and 4Tcm versions of:
 - 4TxxBRDU.xls
 - 4TxxAllKi67Pos.xls
 - 4TxxMeanKi67Pos.xls
 
-============================================
-PACKAGE REQUIREMENTS	
-============================================
-
+## Requirements
 The following R packages are required
 
 - iterators
@@ -75,18 +68,16 @@ The following R packages are required
 version from Github was used and can be found here: https://github.com/thk686/odeintr. In order to
 obtain this version directly from git via commandline, additional packages will be required (httr, git2r, curl, openssl)
 
-============================================
-USAGE INSTRUCTIONS	
-============================================
+## Instructions
 
-1.) Modify workDir.R to reflect correct local package directory.
+1. Modify workDir.R to reflect correct local package directory.
 
-2.) Modify getModelConfigs.R to define kBox/bBox min/max and desired source terms to loop over.
+2. Modify getModelConfigs.R to define kBox/bBox min/max and desired source terms to loop over.
     For now one must use only configurations for which the ODE expressions already exist in Functions/
     and CFunctions/. Further information on how to use the Mathematica files to generate further expressions
     will be forthcoming.
 
-3.) Run runBestFits.R using Rscript which takes command line arguments according to:
+3. Run runBestFits.R using Rscript which takes command line arguments according to:
 
 	Rscript runBestFits.R <cell> <source switch> <model> <ncores>
 
@@ -103,15 +94,15 @@ USAGE INSTRUCTIONS
     Note: There is no check to ensure the number of cores is reasonable,
     it is currently up to the user to ensure this for their machine.
 
-4.) Modify runAnalysis.R according to which source terms the user wants included in analysis by
+4. Modify runAnalysis.R according to which source terms the user wants included in analysis by
     re-defining 'target.source.list'
     
-5.) Run Rscript runAnalysis.R <model> <cell> <source switch>. This will output the summary files for the best fits.
+5. Run Rscript runAnalysis.R <model> <cell> <source switch>. This will output the summary files for the best fits.
     
     Example:
 	Rscript runAnalysis.R kinHet 4Tem delayStep 
     
-6.) Run 'runBootstrap.R' with command line arguments for cell type, source switch function, sigma value, model, and number of cores
+6. Run 'runBootstrap.R' with command line arguments for cell type, source switch function, sigma value, model, and number of cores
     
     Example:
 	Rscript runBootStrap.R 4Tem delayStep 0.4 kinHet 64
@@ -120,5 +111,5 @@ USAGE INSTRUCTIONS
     the memory pool per week. This presupposes the bestfits have been run for this source. It will
     automatically do the bootstraps on the 'best best-fit' box configuration available
 
-7.) Run 'runCombinedBootData.R' to collect all the bootstrap outputs into a useful form (CIs). This takes some time. 
+7. Run 'runCombinedBootData.R' to collect all the bootstrap outputs into a useful form (CIs). This takes some time. 
     Only takes three command line arguments, <model>, <cell>, and <ncores>
